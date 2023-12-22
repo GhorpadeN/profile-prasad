@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Other</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <style>
-       li{margin: 20px;}
-       #name{padding: 20px;}
+      li {
+        margin: 20px;
+      }
+      #name {
+        padding: 20px;
+        font-family: "Poppins", sans-serif;
+      }
+      #pp {
+        font-family: "Poppins", sans-serif;
+      }
+      .info {
+        font-family: "Roboto", sans-serif;
+      }
+      #fd {
+        font-family: "Poppins", sans-serif;
+      }
     </style>
-</head>
-<body>
-    <h2>Profile Photo</h2>
-    <img src="Assets/Developer.jpeg" alt="Developer photo">
-    <p> <b id="name">Prasad Ghorpade </b><br>
-    <p> <b>Mobile Number:</b> 9657 28 7336 <br>
-    <b>Email:</b>prasadghorpade@gmail.com <br>
-    <b>Date of birth:</b>July-31-1996 <br>
-    <b>Address:</b>Shahu nagar, chinchwad.</p>
-    <hr>
- <details>
-    <Summary>
-        Family Details
-    </Summary>
-    <ul><li>Father name: Chandrakant Ghorpade</li>
-    <li>Mother name: Pooja Ghorpade</li></ul>
- </details>
-</body>
+  </head>
+  <body>
+    <h2 id="pp">Profile Photo</h2>
+    <img src="Assets/Developer.jpeg" alt="Developer photo" />
+    <p><b id="name">Prasad Ghorpade </b><br /></p>
+    <p class="info">
+      <b>Mobile Number:</b> 9657 28 7336 <br />
+      <b>Email:</b>prasadghorpade@gmail.com <br />
+      <b>Date of birth:</b>July-31-1996 <br />
+      <b>Address:</b>Shahu nagar, chinchwad.
+    </p>
+    <hr />
+    <details>
+      <summary id="fd">Family Details</summary>
+      <ul class="info">
+        <li>Father name: Chandrakant Ghorpade</li>
+        <li>Mother name: Pooja Ghorpade</li>
+      </ul>
+    </details>
+  </body>
 </html>
